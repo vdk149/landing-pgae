@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Đăng Ký Ngay</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-rocket text-primary"></i>
+                <span class="fw-bold">BrandName</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Tính Năng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing">Giá Cả</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Đánh Giá</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white px-4 ms-2" href="#signup">Đăng Ký</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="display-4 fw-bold mb-4 animate-text">
+                            Giải Pháp Hoàn Hảo Cho Doanh Nghiệp Của Bạn
+                        </h1>
+                        <p class="lead mb-4">
+                            Tăng năng suất làm việc lên 300% với công cụ quản lý thông minh. 
+                            Đăng ký ngay hôm nay để nhận ưu đãi đặc biệt!
+                        </p>
+                        <div class="hero-buttons">
+                            <a href="#signup" class="btn btn-primary btn-lg me-3 pulse-btn">
+                                <i class="fas fa-rocket me-2"></i>Bắt Đầu Ngay
+                            </a>
+                            <a href="#features" class="btn btn-outline-primary btn-lg">
+                                <i class="fas fa-play-circle me-2"></i>Xem Demo
+                            </a>
+                        </div>
+                        <div class="hero-stats mt-5">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h3 class="fw-bold text-primary">10K+</h3>
+                                    <p class="small text-muted">Khách Hàng</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="fw-bold text-primary">4.9★</h3>
+                                    <p class="small text-muted">Đánh Giá</p>
+                                </div>
+                                <div class="col-4">
+                                    <h3 class="fw-bold text-primary">24/7</h3>
+                                    <p class="small text-muted">Hỗ Trợ</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800" 
+                             alt="Hero" class="img-fluid rounded-4 shadow-lg float-animation">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section py-5" id="features">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-3">Tính Năng Nổi Bật</h2>
+                <p class="text-muted">Khám phá những tính năng tuyệt vời giúp bạn làm việc hiệu quả hơn</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Phân Tích Dữ Liệu</h4>
+                        <p class="text-muted">
+                            Theo dõi và phân tích dữ liệu real-time với dashboard trực quan và dễ sử dụng
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Bảo Mật Tuyệt Đối</h4>
+                        <p class="text-muted">
+                            Mã hóa dữ liệu 256-bit SSL, đảm bảo thông tin của bạn luôn được bảo vệ
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Cộng Tác Nhóm</h4>
+                        <p class="text-muted">
+                            Làm việc nhóm hiệu quả với công cụ chia sẻ và quản lý dự án tích hợp
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Tương Thích Mobile</h4>
+                        <p class="text-muted">
+                            Truy cập mọi lúc mọi nơi với ứng dụng mobile thân thiện trên iOS & Android
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Tiết Kiệm Thời Gian</h4>
+                        <p class="text-muted">
+                            Tự động hóa quy trình làm việc, tiết kiệm đến 80% thời gian xử lý công việc
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card text-center p-4">
+                        <div class="feature-icon mb-3">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <h4 class="fw-bold mb-3">Hỗ Trợ 24/7</h4>
+                        <p class="text-muted">
+                            Đội ngũ chăm sóc khách hàng chuyên nghiệp luôn sẵn sàng hỗ trợ bạn
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section py-5 bg-light" id="pricing">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-3">Bảng Giá Ưu Đãi</h2>
+                <p class="text-muted">Chọn gói dịch vụ phù hợp với nhu cầu của bạn</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header text-center p-4">
+                            <h4 class="fw-bold">Cơ Bản</h4>
+                            <div class="pricing-amount my-3">
+                                <span class="h2 fw-bold">299K</span>
+                                <span class="text-muted">/tháng</span>
+                            </div>
+                            <p class="text-muted">Phù hợp cho cá nhân</p>
+                        </div>
+                        <div class="pricing-body p-4">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>5 dự án</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>10GB lưu trữ</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Hỗ trợ email</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Báo cáo cơ bản</li>
+                                <li class="mb-3 text-muted"><i class="fas fa-times me-2"></i>Tích hợp API</li>
+                            </ul>
+                            <a href="#signup" class="btn btn-outline-primary w-100">Chọn Gói</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">PHỔ BIẾN</div>
+                        <div class="pricing-header text-center p-4">
+                            <h4 class="fw-bold">Chuyên Nghiệp</h4>
+                            <div class="pricing-amount my-3">
+                                <span class="h2 fw-bold">599K</span>
+                                <span class="text-muted">/tháng</span>
+                            </div>
+                            <p class="text-muted">Phù hợp cho doanh nghiệp nhỏ</p>
+                        </div>
+                        <div class="pricing-body p-4">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>20 dự án</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>50GB lưu trữ</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Hỗ trợ 24/7</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Báo cáo nâng cao</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Tích hợp API</li>
+                            </ul>
+                            <a href="#signup" class="btn btn-primary w-100">Chọn Gói</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header text-center p-4">
+                            <h4 class="fw-bold">Doanh Nghiệp</h4>
+                            <div class="pricing-amount my-3">
+                                <span class="h2 fw-bold">1,299K</span>
+                                <span class="text-muted">/tháng</span>
+                            </div>
+                            <p class="text-muted">Giải pháp toàn diện</p>
+                        </div>
+                        <div class="pricing-body p-4">
+                            <ul class="list-unstyled">
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Không giới hạn</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>200GB lưu trữ</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Hỗ trợ ưu tiên</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>Tùy chỉnh báo cáo</li>
+                                <li class="mb-3"><i class="fas fa-check text-success me-2"></i>API không giới hạn</li>
+                            </ul>
+                            <a href="#signup" class="btn btn-outline-primary w-100">Chọn Gói</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-5" id="testimonials">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold mb-3">Khách Hàng Nói Gì</h2>
+                <p class="text-muted">Hơn 10,000 khách hàng tin tưởng và sử dụng sản phẩm của chúng tôi</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="mb-4">
+                            "Sản phẩm tuyệt vời! Đã giúp công ty tôi tăng hiệu suất làm việc lên 200%. 
+                            Giao diện thân thiện và dễ sử dụng."
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://randomuser.me/api/portraits/men/1.jpg" 
+                                 alt="User" class="rounded-circle me-3" width="50">
+                            <div>
+                                <h6 class="mb-0 fw-bold">Nguyễn Văn A</h6>
+                                <small class="text-muted">CEO, ABC Corp</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="mb-4">
+                            "Dịch vụ khách hàng xuất sắc! Luôn hỗ trợ nhanh chóng và nhiệt tình. 
+                            Tôi rất hài lòng với sản phẩm này."
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://randomuser.me/api/portraits/women/2.jpg" 
+                                 alt="User" class="rounded-circle me-3" width="50">
+                            <div>
+                                <h6 class="mb-0 fw-bold">Trần Thị B</h6>
+                                <small class="text-muted">Founder, XYZ Studio</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <div class="stars mb-3">
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                            <i class="fas fa-star text-warning"></i>
+                        </div>
+                        <p class="mb-4">
+                            "Giá cả hợp lý với chất lượng tuyệt vời. Tính năng đầy đủ và mạnh mẽ. 
+                            Highly recommended!"
+                        </p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://randomuser.me/api/portraits/men/3.jpg" 
+                                 alt="User" class="rounded-circle me-3" width="50">
+                            <div>
+                                <h6 class="mb-0 fw-bold">Lê Văn C</h6>
+                                <small class="text-muted">Manager, Tech Solutions</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Form Section -->
+    <section class="signup-section py-5 bg-gradient" id="signup">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="signup-card">
+                        <div class="text-center mb-4">
+                            <h2 class="fw-bold mb-3">Đăng Ký Ngay Hôm Nay</h2>
+                            <p class="text-muted">Nhận 30 ngày dùng thử miễn phí, không cần thẻ tín dụng</p>
+                        </div>
+                        <form id="signupForm">
+                            <div class="mb-3">
+                                <label for="fullName" class="form-label">Họ và Tên *</label>
+                                <input type="text" class="form-control" id="fullName" 
+                                       placeholder="Nguyễn Văn A" required>
+                                <div class="invalid-feedback">Vui lòng nhập họ tên</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="email" class="form-control" id="email" 
+                                       placeholder="email@example.com" required>
+                                <div class="invalid-feedback">Vui lòng nhập email hợp lệ</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Số Điện Thoại *</label>
+                                <input type="tel" class="form-control" id="phone" 
+                                       placeholder="0912345678" required>
+                                <div class="invalid-feedback">Vui lòng nhập số điện thoại</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="company" class="form-label">Tên Công Ty</label>
+                                <input type="text" class="form-control" id="company" 
+                                       placeholder="Công ty của bạn">
+                            </div>
+                            <div class="mb-3">
+                                <label for="package" class="form-label">Chọn Gói Dịch Vụ *</label>
+                                <select class="form-select" id="package" required>
+                                    <option value="">Chọn gói...</option>
+                                    <option value="basic">Cơ Bản - 299K/tháng</option>
+                                    <option value="pro">Chuyên Nghiệp - 599K/tháng</option>
+                                    <option value="enterprise">Doanh Nghiệp - 1,299K/tháng</option>
+                                </select>
+                                <div class="invalid-feedback">Vui lòng chọn gói dịch vụ</div>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="terms" required>
+                                <label class="form-check-label" for="terms">
+                                    Tôi đồng ý với <a href="#" class="text-primary">điều khoản dịch vụ</a> 
+                                    và <a href="#" class="text-primary">chính sách bảo mật</a>
+                                </label>
+                                <div class="invalid-feedback">Bạn phải đồng ý với điều khoản</div>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg w-100">
+                                <i class="fas fa-paper-plane me-2"></i>Đăng Ký Ngay
+                            </button>
+                        </form>
+                        <div id="successMessage" class="alert alert-success mt-3 d-none">
+                            <i class="fas fa-check-circle me-2"></i>
+                            Đăng ký thành công! Chúng tôi sẽ liên hệ với bạn sớm nhất.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold mb-3">
+                        <i class="fas fa-rocket me-2"></i>BrandName
+                    </h5>
+                    <p class="text-muted">
+                        Giải pháp quản lý thông minh cho doanh nghiệp hiện đại. 
+                        Tăng hiệu suất, tiết kiệm thời gian.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin fa-lg"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="fw-bold mb-3">Sản Phẩm</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted">Tính năng</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Giá cả</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Bảo mật</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Roadmap</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6 class="fw-bold mb-3">Công Ty</h6>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-muted">Về chúng tôi</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Blog</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Careers</a></li>
+                        <li class="mb-2"><a href="#" class="text-muted">Liên hệ</a></li>
+                    </ul>
+                    <div class="mt-3">
+                        <h6 class="fw-bold mb-2">Liên Hệ</h6>
+                        <p class="text-muted mb-0">
+                            <i class="fas fa-phone me-2"></i>
+                            <a href="tel:0918190502" class="text-muted">0918 190 502</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6 class="fw-bold mb-3">Nhận Tin Tức</h6>
+                    <p class="text-muted small">Đăng ký để nhận thông tin mới nhất về sản phẩm</p>
+                    <form class="newsletter-form">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Email của bạn">
+                            <button class="btn btn-primary" type="submit">
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <hr class="my-4 bg-secondary">
+            <div class="text-center text-muted small">
+                <p class="mb-0">&copy; 2025 BrandName. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
